@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ExerciseBook</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="userFirstName">First Name</string>
+    <string name="weight">Weight:</string>
+    <string name="kg">kg</string>
+    <string name="number_of_sets">Number of Sets:</string>
+</resources>

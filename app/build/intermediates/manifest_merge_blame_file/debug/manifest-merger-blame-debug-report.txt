@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.exercisebook"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:5:5-33:19
+12        android:allowBackup="true"
+12-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.1.0] C:\Users\Petar\.gradle\caches\transforms-2\files-2.1\7f6c41cc2a14c0fbaa8d0166c17dc544\core-1.1.0\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@drawable/ic_gym"
+17-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:9:9-45
+18        android:supportsRtl="true"
+18-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/AppTheme" >
+20-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:11:9-40
+21        <activity android:name="com.example.exercisebook.AddEditMeasurementsActivity" />
+21-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:12:9-74
+21-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:12:19-62
+22        <activity android:name="com.example.exercisebook.WorkoutActivity" />
+22-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:13:9-53
+22-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:13:19-50
+23        <activity android:name="com.example.exercisebook.AddEditExercisesActivity" />
+23-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:14:9-62
+23-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:14:19-59
+24        <activity
+24-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:15:9-17:72
+25            android:name="com.example.exercisebook.DisplayTabActivity"
+25-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:16:13-47
+26            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+26-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:17:13-69
+27        <activity
+27-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:18:9-26:20
+28            android:name="com.example.exercisebook.MainActivity"
+28-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:19:13-41
+29            android:launchMode="singleTop" >
+29-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:20:13-43
+30            <intent-filter>
+30-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:21:13-25:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:22:17-69
+31-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:22:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:24:17-77
+33-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:24:27-74
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:27:9-29:58
+37            android:name="com.example.exercisebook.AddEditUserActivity"
+37-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:28:13-48
+38            android:parentActivityName="com.example.exercisebook.MainActivity" />
+38-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:29:13-55
+39        <activity
+39-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:30:9-32:52
+40            android:name="com.example.exercisebook.PickDate"
+40-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:31:13-37
+41            android:icon="@drawable/ic_calendar" />
+41-->E:\AndroidProjects\ExerciseBook\app\src\main\AndroidManifest.xml:32:13-49
+42
+43        <service
+43-->[androidx.room:room-runtime:2.2.3] C:\Users\Petar\.gradle\caches\transforms-2\files-2.1\e65e4154abbc265ac4d89a7a3d13f74e\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+44            android:name="androidx.room.MultiInstanceInvalidationService"
+44-->[androidx.room:room-runtime:2.2.3] C:\Users\Petar\.gradle\caches\transforms-2\files-2.1\e65e4154abbc265ac4d89a7a3d13f74e\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+45            android:exported="false" />
+45-->[androidx.room:room-runtime:2.2.3] C:\Users\Petar\.gradle\caches\transforms-2\files-2.1\e65e4154abbc265ac4d89a7a3d13f74e\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+46
+47        <provider
+47-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Petar\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+48            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+48-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Petar\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+49            android:authorities="com.example.exercisebook.lifecycle-process"
+49-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Petar\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+50            android:exported="false"
+50-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Petar\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+51            android:multiprocess="true" />
+51-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\Petar\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+52    </application>
+53
+54</manifest>
